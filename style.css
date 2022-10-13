@@ -1,0 +1,143 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 24px 48px;
+    width: 100%;
+}
+.menu{
+    height: 96px;
+}
+.header a{
+    color: rgba(0, 0, 0, 0.45);
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.flex-sb{
+    display: flex;
+    justify-content: space-between;
+    /* align-items:flex-start; */
+}
+
+.nav a{
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+ 
+}
+.nav a:hover{
+    color: #000;
+   
+  }
+.nav a.active {
+    background-color:#000;
+    color:#fff;
+    border-radius: 0.25rem;
+    padding: 8px 12px;
+  }
+
+
+/* main */
+.full-container {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+h3{
+    font-size: 32px;
+    line-height: 40px;
+}
+.text-shade {
+    color: rgba(0, 0, 0, 0.45);
+}
+.text-shade a{
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.1);
+    text-decoration-thickness: 0.6px;
+    text-underline-offset: 0.15em;
+}
+.flex-yc{
+    display: flex;
+    align-items: center;   
+}
+.flex{
+    display: flex;
+      
+}
+.text-shade a:hover{
+    text-decoration: underline rgba(0, 0, 0, 0.1) 2px;  
+}
+.px-3{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+.p-1{
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+}
+.mr-2{
+    margin-right: 0.5rem;
+}
+.bg-bgshade{
+    background-color: rgba(0, 0, 0, 0.05);
+   
+}
+.rounded-full {
+    border-radius: 50px;
+}
+.web {
+    margin-right: 5px;
+  }
+
+.flex-none{
+    flex: none;
+}
+.bubble{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border:solid 1px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.ml{
+    margin-left: 12px;
+}
+
+a.bubble:hover{
+    color: #fff;
+    background-color: #8C8C8C;
+}
+
+
+
+/* footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    border-top: gray solid 1px;
+    padding: 48px 48px;
+    
+  }
+.footer-menu a{
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.45);
+    text-underline-offset: 0.15em;
+    margin-right: 0.75rem;
+    
+}
+.footer-menu a:hover{
+    text-decoration: underline solid #000 2px;
+    
+}
