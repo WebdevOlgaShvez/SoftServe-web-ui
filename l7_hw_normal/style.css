@@ -1,0 +1,13 @@
+.container{
+    background-color: aqua;
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
