@@ -2,6 +2,27 @@
 
 //Запитайте у користувача тризначне число і виведіть його задом наперед. 
 //Для вирішення завдання вам знадобиться оператор % (залишок від ділення).
+//321
+let number = +prompt("enter number");
+if (number === 0){
+    alert(0);
+} else if(number < 0){
+number = -1*number;
+let a = number%10;
+let c = Math.trunc(number%100/10);
+let d = Math.trunc(number/100);
+let revNumber = `${a}${c}${d}`;
+
+alert(-1*Number(revNumber));
+} else{
+    let a = number%10;
+    let c = Math.trunc(number%100/10);
+    let d = Math.trunc(number/100);
+    let revNumber = `${a}${c}${d}`;
+    
+    alert(revNumber);
+}
+
 
 //2. Температурний помічник.
 
