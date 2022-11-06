@@ -2,7 +2,7 @@
 
 //Запитайте у користувача тризначне число і виведіть його задом наперед. 
 //Для вирішення завдання вам знадобиться оператор % (залишок від ділення).
-//321
+
 let number = +prompt("enter number");
 if (number === 0){
     alert(0);
@@ -28,7 +28,7 @@ alert(-1*Number(revNumber));
 
 //Кевін щойно приїхав зі США і не може звикнути до нашої системи вимірювання температури.
 // Напишіть код, де б він міг ввести нові для нього градуси в Цельсіях і отримати старі добрі Фаренгейти.
-const t = prompt("enter temperature in C");
+const t = +prompt("enter temperature in C");
 const tempInFar = parseFloat((t * 9/5) + 32);
 alert(`temperature from celsius to fahrenheit is ${tempInFar}`);
 
